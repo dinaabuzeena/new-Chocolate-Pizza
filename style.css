@@ -1,0 +1,174 @@
+body {
+    box-sizing: border-box;
+    margin: 0 5%; 
+
+      
+}
+header {
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+        
+}
+header div h1 {
+    font-size: 30pt;
+    font-family: 'Yellowtail', cursive;
+    margin-left: 10px;
+
+
+}
+header div h2 {
+    font-family: 'Antic Slab', serif;
+    color: rgb(170, 169, 169);
+    font-size: 10pt;
+}
+header div img {
+    float: left;
+}
+
+header nav ul li {
+    display: inline-block;
+    float: right;
+    width: 230px;
+    padding: 5px;   
+    
+    margin-top: -35px;
+    
+}
+
+
+header hr {
+    height: 10px;
+    border: 10px;
+    background-image: url("pic.png/hr-img.png");
+    margin-top: 27px;
+    
+    }
+
+main section:first-child h1 {
+    font-size: 25pt;
+    font-weight: bolder;
+
+
+}
+main section:first-child h4 {
+    color: rgb(163, 162, 162);
+    font-size: 8pt
+}
+main section:first-child h6 {
+    display: inline-block;
+    float: right;
+    margin-top: -30px;
+    color: rgb(163, 162, 162);
+    
+    
+}
+main section:first-child img {
+    display: inline-block;
+    float: right;
+    margin-top: -27px;
+    margin-right: 35px;
+}
+main section:nth-child(2) article img {
+    width: 100%;
+    
+    margin-top: 35px;
+    ;
+}
+
+main section:nth-child(2) article p {
+    margin-top: 30px;
+    text-indent: 25px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 15pt;
+}
+main form {
+    background-image: url("pic.png/list-bg.png") ; 
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 430px;
+    box-sizing: border-box;
+    
+}
+main form table  {
+    margin-left: 100px;
+    
+    font-size: 19pt;
+    font-family: 'Mukta', sans-serif;
+    
+    
+}
+main form table tr td {
+    
+    width: 500px;
+    /* height: 30px; */
+    padding: 20px;
+    
+}
+main hr {
+    height: 10px;
+    border: 10px;
+    background-image: url("pic.png/hr-img.png");
+    margin-top: 27px;
+}
+main section:last-child {
+    height: 100px;
+}
+main section:last-child button {
+    float: right;
+    background-color: rgb(202, 75, 52);
+    height: 60px;
+    width: 200px;
+    margin-top: -50px;
+}
+main section:last-child img {
+    float: left;
+}
+main section:last-child h1 {
+    font-size: 22pt;
+    margin-left: 90px;
+}
+main section:last-child p {
+    font-size: 14pt;
+    font-family: 'Mukta', sans-serif;
+    width: 600px;
+    margin-left: 90px;
+}
+footer div hr {
+    border-top: 1px solid rgb(0, 0, 0);
+    width: 300px;
+
+}
+footer {
+    margin-top: 30px;
+    
+    
+}
+footer hr:first-child {
+    margin-top: -1px;
+    width: 45%;
+    float: left;
+}
+footer hr:nth-child(2) {
+    
+    width: 45%;
+    margin-top: 100px;
+
+}
+footer img {
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 562px;
+
+}
+footer h3:nth-child(4) {
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(165, 164, 164);
+}
+footer h3:last-child {
+    text-align: center;
+    color: rgb(165, 164, 164);
+}
+
